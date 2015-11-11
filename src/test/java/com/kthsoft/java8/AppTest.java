@@ -1,4 +1,4 @@
-package com.kthsoft.java8.java_8_new_features;
+package com.kthsoft.java8;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
