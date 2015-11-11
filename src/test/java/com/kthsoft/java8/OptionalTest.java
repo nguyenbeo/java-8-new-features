@@ -46,6 +46,11 @@ public class OptionalTest {
 		
 		Optional<Person> mapStringOptional = testStringOptional.map(s -> new Person("Length is" + s.length()));
 		assertTrue(mapStringOptional.get().getName().equals("Length is" + NOT_NULL_STRING.length()));
+		
+		assertTrue(testStringOptional.filter(s -> s.contains("string")).isPresent());
+		assertTrue(testStringOptional.filter(s -> s.length() > 0).isPresent());
+		
+		assertFalse(testStringOptional.filter(s -> s.contains("stuff")).isPresent());
 	}
 
 }
