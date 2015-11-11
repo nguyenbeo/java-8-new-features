@@ -10,3 +10,6 @@ Some tries to demonstrate new features of java 1.8
 # Technology
 * Java 1.8
 * JUnit 4.12
+
+# How to run
+Make sure your IDE supports Java 8 and run it via normal JUnit.
