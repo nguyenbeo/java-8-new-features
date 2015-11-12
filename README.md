@@ -17,6 +17,7 @@ Make sure your IDE supports Java 8 and run it via normal JUnit.
 In order to test Javascript engine Nashorn
 * In Eclipse, just right click on App.java and Run as Application
 * Command:
+
 javac App.java
 
 java App
